@@ -88,7 +88,7 @@ class WeatherJsonExtractor:
 if __name__ == '__main__':
     
     url = 'http://apis.baidu.com/apistore/weatherservice/recentweathers?cityid=101010100'
-    apikey = '3cee8e83a70c87460775372b64e9bb33'
+    apikey = 'your_api_key'
 
     req = urllib2.Request(url)
     req.add_header('apikey', apikey)
