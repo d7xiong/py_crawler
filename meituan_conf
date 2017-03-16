@@ -1,0 +1,91 @@
+{
+    "data_type": "html",
+    "data_category": "detail",
+    "worker_thread_num": 10,
+    "result_thread_num": 0,
+    "url_from": "file",
+    "is_proxy": 1,
+    "url_file_name": "shangjia_url",
+    "signal_url": "http://bj.meituan.com/shop/92882251",
+    "output_file": "detail_meituan_shangjia",
+    "fields": [
+        {
+	    "list_selector": "",
+            "list_columns_selector":"",
+            "field_columns": [
+            	{
+		    "field_selector": ".bread-nav",
+		    "index": 0,
+                    "name": "shangjia_fenlei",
+                    "attr": ""
+                }
+            ]
+	},
+	{
+	    "list_selector": ".fs-section__right",
+            "list_columns_selector":"",
+            "field_columns": [
+            	{
+		    "field_selector": "a",
+		    "index": 0,
+                    "name": "shangjia_tag",
+                    "attr": ""
+                },
+		{
+		    "field_selector": "strong",
+		    "index": 0,
+                    "name": "shangjia_pingfen",
+                    "attr": ""
+                }
+            ]
+	},
+	{
+	    "list_selector": ".counts",
+            "list_columns_selector":"",
+            "field_columns": [
+            	{
+		    "field_selector": "a",
+		    "index": 0,
+                    "name": "pingjia_person_num",
+                    "attr": ""
+                }
+            ]
+	},
+	{
+	    "list_selector": "",
+            "list_columns_selector":"",
+            "field_columns": [
+            	{
+		    "field_selector": ".field-group",
+		    "index": -1,
+                    "name": "shangjia_detail",
+                    "attr": ""
+                }
+            ]
+	},
+	{
+	    "list_selector": ".fs-section__left",
+	    "list_columns_selector":"",
+            "field_columns": [
+                {
+		    "field_selector": "title",
+		    "index": 0,
+                    "name": "title",
+                    "attr": ""
+                },
+                {
+		    "field_selector": ".geo",
+		    "index": 0,
+                    "name": "address",
+                    "attr": ""
+                },
+                {
+		    "field_selector": "p",
+		    "index": 1,
+                    "name": "telphone",
+                    "attr": ""
+                }
+            ]
+	}
+    ]
+}
